@@ -1,0 +1,15 @@
+.tape{
+  // max-width: 640px;
+//   @media (max-width: 640px){
+//     width: 80% !important;
+//   }
+}
+
+.tape{
+  h1:first-child{
+    font-family: 'Moon-Flower-Bold';
+  }
+  h1:nth-child(2){
+    font-family: 'Moon-Flower';
+  }
+}

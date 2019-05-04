@@ -1,0 +1,115 @@
+.cassette-tape{
+  position: relative;
+}
+.cassette-tape img{
+  width: 100%;
+}
+
+.cassette-tape-face{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  max-width: 640px;
+}
+
+
+.cassette-tape-spindle-left {
+  position: absolute;
+  top: 44%;
+  left: 22%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 14.5%;
+  z-index: 0;
+}
+.cassette-tape-spindle-left img {
+  width: 100%;
+  display: block;
+}
+.cassette-tape-spindle-right {
+  position: absolute;
+  top: 44%;
+  right: 22%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 14.5%;
+  z-index: 0;
+}
+.cassette-tape-spindle-right img {
+  width: 100%;
+  display: block;
+}
+.cassette-tape-progress {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  width: 24%;
+  height: 21%;
+  z-index: 1;
+  overflow: hidden;
+}
+.cassette-tape-reel-container-right {
+  right: -61%;
+  position: absolute;
+  padding-bottom: 50%;
+  width: 50%;
+}
+.cassette-tape-reel-container-left {
+  left: -61%;
+  position: absolute;
+  padding-bottom: 50%;
+  width: 50%;
+};
+.cassette-tape-reel-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #663300;
+  width: 1000%;
+  height: 100%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.cassette-tape-reel-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #663300;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.cassette-tape-top-text {
+  color: #ffffff;
+  position: absolute;
+  top: 21%;
+  width: 100%;
+  font-size: 2em;
+  line-height: 0;
+  margin: 0;
+  z-index: 10;
+  text-align: center;
+}
+.cassette-tape-bottom-text {
+  color: #ffffff;
+  position: absolute;
+  bottom: 36%;
+  width: 100%;
+  font-size: 1.5em;
+  line-height: 0;
+  margin: 0;
+  z-index: 10;
+  text-align: center;
+}
