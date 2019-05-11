@@ -67,11 +67,6 @@ class CassetteTape extends React.Component {
   }
 }
 
-CassetteTape.propTypes = {
-  animate:    PropTypes.bool, //true animates
-  progress:   PropTypes.number, //0-100
-  topText:    PropTypes.string,
-  bottomText: PropTypes.string,
-}
+
 
 export default CassetteTape;
