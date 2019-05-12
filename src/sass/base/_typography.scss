@@ -1,8 +1,58 @@
-// @font-face {
-//   font-family: 'Moon-Flower';
-//   src: url('font/Moon-Flower/Moon-Flower.woff') format('woff'); /* Pretty Modern Browsers */
-// }
-// @font-face {
-//   font-family: 'Moon-Flower-Bold';
-//   src: url('font/Moon-Flower-Bold/Moon-Flower-Bold.woff') format('woff'); /* Pretty Modern Browsers */
-// }
+@font-face {
+  font-family: 'Moon-Flower';
+  src: url('../font/Moon-Flower/Moon-Flower.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Moon-Flower-Bold';
+  src: url('../font/Moon-Flower-Bold/Moon-Flower-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+body{
+  font-family: "akzidenz-light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Moon-Flower";
+}
+h1 {
+  font-size: 0.7rem;
+  @include media-breakpoint-up(xs) {
+    font-size: 0.8rem;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 1.5rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 1.75rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 2rem;
+  }
+}
+p{
+  background-color: rgba($white, 0.5);
+  display: inline-block;
+  @include equal-padding(0.5rem);
+  font-family: "arial";
+  font-size: 0.5rem;
+  @include media-breakpoint-up(xs) {
+    font-size: 0.8rem;
+    @include equal-padding(0.3rem);
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 1rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 1.3rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1.3rem;
+  }
+}
+strong {
+  font-family: "arial";
+}
