@@ -9,14 +9,14 @@ $light:         $gray-100;
 $dark:          $gray-800;
 
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
+  "primary":    #d27ce1, // Dark purple
+  "secondary":  #f8ea9f, //pink
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       #6667bd
 );
 
 
@@ -100,4 +100,8 @@ footer{
 
 i.active{
   color: theme-color('primary');
+}
+
+h1{
+  color: theme-color('dark');
 }

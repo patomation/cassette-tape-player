@@ -14,3 +14,7 @@
     width: 40%;
   }
 }
+
+.player{
+  @include drop-shadow(theme-color("dark"))
+}

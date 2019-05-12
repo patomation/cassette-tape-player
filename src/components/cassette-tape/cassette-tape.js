@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-import face from './face.png';
+import face from './face-pink.png';
 import spindle from './spindle.png';
 import style from './cassette-tape.scss';
 
